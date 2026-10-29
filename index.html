@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Controle de Equipe e Empresas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Controle de Equipe e Empresas</h1>
+    <nav id="tabs">
+      <button data-view="painel" class="active">Painel</button>
+      <button data-view="tarefas">Tarefas</button>
+      <button data-view="quadro">Quadro</button>
+      <button data-view="equipe">Equipe</button>
+      <button data-view="empresas">Empresas</button>
+      <button data-view="dados">Dados</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PAINEL -->
+    <section id="view-painel" class="view active">
+      <div class="filters">
+        <label>Competência <input type="month" id="painel-competencia"></label>
+        <span class="hint">Deixe vazio para ver todas</span>
+      </div>
+      <div id="kpis" class="kpis"></div>
+      <h2>Posição por colaborador</h2>
+      <div id="posicao-equipe" class="table-wrap"></div>
+      <h2>Posição por empresa</h2>
+      <div id="posicao-empresas" class="table-wrap"></div>
+      <h2>Atrasadas e vencendo em 3 dias</h2>
+      <div id="alertas" class="table-wrap"></div>
+    </section>
+
+    <!-- TAREFAS -->
+    <section id="view-tarefas" class="view">
+      <div class="filters">
+        <input type="search" id="f-busca" placeholder="Buscar título ou observação">
+        <select id="f-empresa"></select>
+        <select id="f-responsavel"></select>
+        <select id="f-status"></select>
+        <select id="f-departamento"></select>
+        <input type="month" id="f-competencia" title="Competência">
+        <button class="primary" id="btn-nova-tarefa">+ Nova tarefa</button>
+      </div>
+      <div class="filters">
+        <button id="btn-gerar-recorrentes" title="Cria as tarefas recorrentes da competência seguinte">Gerar recorrentes da próxima competência</button>
+      </div>
+      <div id="lista-tarefas" class="table-wrap"></div>
+    </section>
+
+    <!-- QUADRO -->
+    <section id="view-quadro" class="view">
+      <div class="filters">
+        <select id="q-empresa"></select>
+        <select id="q-responsavel"></select>
+        <input type="month" id="q-competencia" title="Competência">
+      </div>
+      <div id="quadro" class="kanban"></div>
+    </section>
+
+    <!-- EQUIPE -->
+    <section id="view-equipe" class="view">
+      <div class="filters"><button class="primary" id="btn-novo-membro">+ Novo colaborador</button></div>
+      <div id="lista-equipe" class="table-wrap"></div>
+    </section>
+
+    <!-- EMPRESAS -->
+    <section id="view-empresas" class="view">
+      <div class="filters"><button class="primary" id="btn-nova-empresa">+ Nova empresa</button></div>
+      <div id="lista-empresas" class="table-wrap"></div>
+    </section>
+
+    <!-- DADOS -->
+    <section id="view-dados" class="view">
+      <h2>Backup e restauração</h2>
+      <p>Os dados ficam salvos neste navegador. Exporte regularmente para não perder informações e para levar os dados a outro computador.</p>
+      <div class="filters">
+        <button id="btn-exportar">Exportar JSON</button>
+        <button id="btn-exportar-csv">Exportar tarefas (CSV)</button>
+        <label class="button">Importar JSON <input type="file" id="inp-importar" accept="application/json" hidden></label>
+        <button id="btn-exemplo">Carregar dados de exemplo</button>
+        <button class="danger" id="btn-limpar">Apagar tudo</button>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="modal">
+    <form id="modal-form" method="dialog">
+      <h2 id="modal-titulo"></h2>
+      <div id="modal-campos" class="form-grid"></div>
+      <div class="modal-acoes">
+        <button type="button" class="danger" id="modal-excluir">Excluir</button>
+        <span class="spacer"></span>
+        <button type="button" id="modal-cancelar">Cancelar</button>
+        <button type="submit" class="primary">Salvar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
