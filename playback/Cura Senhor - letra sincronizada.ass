@@ -1,0 +1,137 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cur,Liberation Sans,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,0,3,5,80,80,0,1
+Style: Nxt,Liberation Sans,58,&H00A0A0A0,&H00A0A0A0,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,0,2,5,80,80,0,1
+Style: Ttl,Liberation Sans,40,&H00B4B4B4,&H00B4B4B4,&H00000000,&H00000000,0,0,0,0,100,100,6,0,1,0,0,8,80,80,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.30,0:00:15.30,Cur,,0,0,0,,{\pos(960,470)\fad(800,500)\fs120}CURA, SENHOR
+Dialogue: 0,0:00:00.30,0:00:15.30,Nxt,,0,0,0,,{\pos(960,580)\fad(800,500)\fsp12}PLAYBACK
+Dialogue: 0,0:00:15.30,0:00:18.30,Nxt,,0,0,0,,{\pos(960,620)\fad(300,0)}Senhor, estamos aqui!
+Dialogue: 0,0:00:15.30,0:04:25.50,Ttl,,0,0,0,,{\fad(500,500)}CURA, SENHOR  ·  PLAYBACK
+Dialogue: 1,0:00:18.30,0:00:24.10,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Senhor, estamos aqui!
+Dialogue: 1,0:00:18.30,0:00:24.10,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Viemos Te adorar!
+Dialogue: 1,0:00:24.10,0:00:27.30,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Viemos Te adorar!
+Dialogue: 1,0:00:24.10,0:00:27.30,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Nossa vida está em Tuas mãos,
+Dialogue: 1,0:00:27.30,0:00:30.80,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Nossa vida está em Tuas mãos,
+Dialogue: 1,0:00:27.30,0:00:30.80,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Vem, Senhor, nos transformar!
+Dialogue: 1,0:00:30.80,0:00:35.50,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Vem, Senhor, nos transformar!
+Dialogue: 1,0:00:30.80,0:00:35.50,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Eu me rendo aos Teus pés,
+Dialogue: 1,0:00:35.50,0:00:39.30,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Eu me rendo aos Teus pés,
+Dialogue: 1,0:00:35.50,0:00:39.30,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Minha vida entrego a Ti.
+Dialogue: 1,0:00:39.30,0:00:43.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Minha vida entrego a Ti.
+Dialogue: 1,0:00:39.30,0:00:43.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Não há outro além de Ti,
+Dialogue: 1,0:00:43.00,0:00:46.40,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Não há outro além de Ti,
+Dialogue: 1,0:00:43.00,0:00:46.40,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Só em Ti encontro paz.
+Dialogue: 1,0:00:46.40,0:00:49.70,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Só em Ti encontro paz.
+Dialogue: 1,0:00:46.40,0:00:49.70,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Cura as feridas do coração,
+Dialogue: 1,0:00:49.70,0:00:54.10,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Cura as feridas do coração,
+Dialogue: 1,0:00:49.70,0:00:54.10,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Quebra as correntes, traz libertação.
+Dialogue: 1,0:00:54.10,0:00:58.60,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Quebra as correntes, traz libertação.
+Dialogue: 1,0:00:54.10,0:00:58.60,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Tua presença é meu lugar,
+Dialogue: 1,0:00:58.60,0:01:03.10,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Tua presença é meu lugar,
+Dialogue: 1,0:00:58.60,0:01:03.10,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Em Teus braços quero descansar.
+Dialogue: 1,0:01:03.10,0:01:07.90,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Em Teus braços quero descansar.
+Dialogue: 1,0:01:03.10,0:01:07.90,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Sopra Teu vento neste lugar,
+Dialogue: 1,0:01:07.90,0:01:11.60,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Sopra Teu vento neste lugar,
+Dialogue: 1,0:01:07.90,0:01:11.60,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Vem com Teu fogo nos renovar!
+Dialogue: 1,0:01:11.60,0:01:15.30,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Vem com Teu fogo nos renovar!
+Dialogue: 1,0:01:11.60,0:01:15.30,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Abre os céus sobre nós,
+Dialogue: 1,0:01:15.30,0:01:18.40,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Abre os céus sobre nós,
+Dialogue: 1,0:01:15.30,0:01:18.40,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Queremos ouvir Tua voz!
+Dialogue: 1,0:01:18.40,0:01:24.50,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Queremos ouvir Tua voz!
+Dialogue: 1,0:01:18.40,0:01:24.50,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Cura, Senhor! Liberta, Senhor!
+Dialogue: 1,0:01:24.50,0:01:30.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Cura, Senhor! Liberta, Senhor!
+Dialogue: 1,0:01:24.50,0:01:30.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Derrama Tua graça e Teu amor!
+Dialogue: 1,0:01:30.00,0:01:36.30,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Derrama Tua graça e Teu amor!
+Dialogue: 1,0:01:30.00,0:01:36.30,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Restaura, Senhor! Renova, Senhor!
+Dialogue: 1,0:01:36.30,0:01:42.50,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Restaura, Senhor! Renova, Senhor!
+Dialogue: 1,0:01:36.30,0:01:42.50,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Nossa vida pertence a Ti, Senhor!
+Dialogue: 1,0:01:42.50,0:01:48.30,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Nossa vida pertence a Ti, Senhor!
+Dialogue: 1,0:01:42.50,0:01:48.30,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:01:48.30,0:01:53.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:01:48.30,0:01:53.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Minha casa pertence a Deus!
+Dialogue: 1,0:01:53.00,0:01:55.60,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Minha casa pertence a Deus!
+Dialogue: 1,0:01:53.00,0:01:55.60,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:01:55.60,0:01:58.40,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:01:55.60,0:01:58.40,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Para sempre adorarei ao meu Rei!
+Dialogue: 1,0:01:58.40,0:02:02.60,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Para sempre adorarei ao meu Rei!
+Dialogue: 1,0:01:58.40,0:02:02.60,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Onde havia dor, traz Tua paz,
+Dialogue: 1,0:02:02.60,0:02:06.20,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Onde havia dor, traz Tua paz,
+Dialogue: 1,0:02:02.60,0:02:06.20,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Onde havia medo, coragem dá.
+Dialogue: 1,0:02:06.20,0:02:09.80,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Onde havia medo, coragem dá.
+Dialogue: 1,0:02:06.20,0:02:09.80,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Onde havia prisão, liberdade vem,
+Dialogue: 1,0:02:09.80,0:02:12.80,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Onde havia prisão, liberdade vem,
+Dialogue: 1,0:02:09.80,0:02:12.80,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Pois em Jesus há poder também!
+Dialogue: 1,0:02:12.80,0:02:15.90,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Pois em Jesus há poder também!
+Dialogue: 1,0:02:12.80,0:02:15.90,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Se o cansado clamar, Tu ouvirás,
+Dialogue: 1,0:02:15.90,0:02:18.90,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Se o cansado clamar, Tu ouvirás,
+Dialogue: 1,0:02:15.90,0:02:18.90,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Se o ferido buscar, Tu curarás.
+Dialogue: 1,0:02:18.90,0:02:22.40,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Se o ferido buscar, Tu curarás.
+Dialogue: 1,0:02:18.90,0:02:22.40,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Não há impossível para o Teu poder,
+Dialogue: 1,0:02:22.40,0:02:26.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Não há impossível para o Teu poder,
+Dialogue: 1,0:02:22.40,0:02:26.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Nossa esperança está em Você!
+Dialogue: 1,0:02:26.00,0:02:29.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Nossa esperança está em Você!
+Dialogue: 1,0:02:26.00,0:02:29.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Cura, Senhor! Liberta, Senhor!
+Dialogue: 1,0:02:29.00,0:02:32.10,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Cura, Senhor! Liberta, Senhor!
+Dialogue: 1,0:02:29.00,0:02:32.10,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Derrama Tua graça e Teu amor!
+Dialogue: 1,0:02:32.10,0:02:35.40,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Derrama Tua graça e Teu amor!
+Dialogue: 1,0:02:32.10,0:02:35.40,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Restaura, Senhor! Renova, Senhor!
+Dialogue: 1,0:02:35.40,0:02:45.50,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Restaura, Senhor! Renova, Senhor!
+Dialogue: 1,0:02:35.40,0:02:45.50,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Nossa vida pertence a Ti, Senhor!
+Dialogue: 1,0:02:45.50,0:02:51.50,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Nossa vida pertence a Ti, Senhor!
+Dialogue: 1,0:02:45.50,0:02:51.50,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:02:51.50,0:02:55.30,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:02:51.50,0:02:55.30,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Minha casa pertence a Deus!
+Dialogue: 1,0:02:55.30,0:02:58.60,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Minha casa pertence a Deus!
+Dialogue: 1,0:02:55.30,0:02:58.60,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:02:58.60,0:03:02.30,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:02:58.60,0:03:02.30,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Para sempre adorarei ao meu Rei!
+Dialogue: 1,0:03:02.30,0:03:09.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Para sempre adorarei ao meu Rei!
+Dialogue: 1,0:03:02.30,0:03:09.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Eu me rendo! Eu me rendo!
+Dialogue: 1,0:03:09.00,0:03:11.60,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Eu me rendo! Eu me rendo!
+Dialogue: 1,0:03:09.00,0:03:11.60,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Minha vida entrego a Ti!
+Dialogue: 1,0:03:11.60,0:03:14.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Minha vida entrego a Ti!
+Dialogue: 1,0:03:11.60,0:03:14.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Eu Te adoro! Eu Te adoro!
+Dialogue: 1,0:03:14.00,0:03:17.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Eu Te adoro! Eu Te adoro!
+Dialogue: 1,0:03:14.00,0:03:17.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Jesus, vive em mim!
+Dialogue: 1,0:03:17.00,0:03:19.60,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Jesus, vive em mim!
+Dialogue: 1,0:03:17.00,0:03:19.60,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Vem curar! Vem libertar!
+Dialogue: 1,0:03:19.60,0:03:22.80,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Vem curar! Vem libertar!
+Dialogue: 1,0:03:19.60,0:03:22.80,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Vem Tua igreja renovar!
+Dialogue: 1,0:03:22.80,0:03:26.30,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Vem Tua igreja renovar!
+Dialogue: 1,0:03:22.80,0:03:26.30,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Vem com fogo! Vem com glória!
+Dialogue: 1,0:03:26.30,0:03:29.40,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Vem com fogo! Vem com glória!
+Dialogue: 1,0:03:26.30,0:03:29.40,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Jesus, Tu és nossa vitória!
+Dialogue: 1,0:03:29.40,0:03:32.70,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Jesus, Tu és nossa vitória!
+Dialogue: 1,0:03:29.40,0:03:32.70,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Santo, Santo, Santo!
+Dialogue: 1,0:03:32.70,0:03:35.80,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Santo, Santo, Santo!
+Dialogue: 1,0:03:32.70,0:03:35.80,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Digno de adoração!
+Dialogue: 1,0:03:35.80,0:03:39.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Digno de adoração!
+Dialogue: 1,0:03:35.80,0:03:39.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Santo, Santo, Santo!
+Dialogue: 1,0:03:39.00,0:03:42.20,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Santo, Santo, Santo!
+Dialogue: 1,0:03:39.00,0:03:42.20,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Reina em meu coração!
+Dialogue: 1,0:03:42.20,0:03:45.50,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Reina em meu coração!
+Dialogue: 1,0:03:42.20,0:03:45.50,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Cura, Senhor! Liberta, Senhor!
+Dialogue: 1,0:03:45.50,0:03:51.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Cura, Senhor! Liberta, Senhor!
+Dialogue: 1,0:03:45.50,0:03:51.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Derrama Tua graça e Teu amor!
+Dialogue: 1,0:03:51.00,0:03:57.10,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Derrama Tua graça e Teu amor!
+Dialogue: 1,0:03:51.00,0:03:57.10,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Restaura, Senhor! Renova, Senhor!
+Dialogue: 1,0:03:57.10,0:04:03.30,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Restaura, Senhor! Renova, Senhor!
+Dialogue: 1,0:03:57.10,0:04:03.30,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Nossa vida pertence a Ti, Senhor!
+Dialogue: 1,0:04:03.30,0:04:11.40,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Nossa vida pertence a Ti, Senhor!
+Dialogue: 1,0:04:03.30,0:04:11.40,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:04:11.40,0:04:15.00,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:04:11.40,0:04:15.00,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Minha casa pertence a Deus!
+Dialogue: 1,0:04:15.00,0:04:17.80,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Minha casa pertence a Deus!
+Dialogue: 1,0:04:15.00,0:04:17.80,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:04:17.80,0:04:21.40,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Eu sou Teu! Eu sou Teu!
+Dialogue: 1,0:04:17.80,0:04:21.40,Nxt,,0,0,0,,{\pos(960,620)\fad(150,100)}Para sempre adorarei ao meu Rei!
+Dialogue: 1,0:04:21.40,0:04:25.50,Cur,,0,0,0,,{\pos(960,500)\fad(150,100)}Para sempre adorarei ao meu Rei!
